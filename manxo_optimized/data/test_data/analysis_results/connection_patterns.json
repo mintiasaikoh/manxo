@@ -1,0 +1,64 @@
+{
+  "top_patterns": {
+    "metro:0 -> counter:0": 1,
+    "counter:0 -> select:0": 1,
+    "select:2 -> route:0": 1,
+    "route:1 -> pack:1": 1,
+    "pack:0 -> unpack:0": 1,
+    "unpack:0 -> trigger:0": 1,
+    "trigger:1 -> gate:1": 1
+  },
+  "top_type_pairs": {
+    "metro -> counter": 1,
+    "counter -> select": 1,
+    "select -> route": 1,
+    "route -> pack": 1,
+    "pack -> unpack": 1,
+    "unpack -> trigger": 1,
+    "trigger -> gate": 1
+  },
+  "port_significance": {
+    "metro_source_ports": {
+      "0": 1
+    },
+    "counter_dest_ports": {
+      "0": 1
+    },
+    "counter_source_ports": {
+      "0": 1
+    },
+    "select_dest_ports": {
+      "0": 1
+    },
+    "select_source_ports": {
+      "2": 1
+    },
+    "route_dest_ports": {
+      "0": 1
+    },
+    "route_source_ports": {
+      "1": 1
+    },
+    "pack_dest_ports": {
+      "1": 1
+    },
+    "pack_source_ports": {
+      "0": 1
+    },
+    "unpack_dest_ports": {
+      "0": 1
+    },
+    "unpack_source_ports": {
+      "0": 1
+    },
+    "trigger_dest_ports": {
+      "0": 1
+    },
+    "trigger_source_ports": {
+      "1": 1
+    },
+    "gate_dest_ports": {
+      "1": 1
+    }
+  }
+}

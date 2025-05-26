@@ -1,0 +1,138 @@
+{
+  "objects": [
+    {
+      "id": "obj-1",
+      "type": "newobj",
+      "text": "metro 500",
+      "real_type": "metro",
+      "category": "other",
+      "inlets": 2,
+      "outlets": 1
+    },
+    {
+      "id": "obj-2",
+      "type": "newobj",
+      "text": "counter",
+      "real_type": "counter",
+      "category": "other",
+      "inlets": 3,
+      "outlets": 3
+    },
+    {
+      "id": "obj-3",
+      "type": "newobj",
+      "text": "select 1 2 3",
+      "real_type": "select",
+      "category": "other",
+      "inlets": 1,
+      "outlets": 3
+    },
+    {
+      "id": "obj-4",
+      "type": "newobj",
+      "text": "route a b c",
+      "real_type": "route",
+      "category": "other",
+      "inlets": 1,
+      "outlets": 3
+    },
+    {
+      "id": "obj-5",
+      "type": "newobj",
+      "text": "pack 1 2 3",
+      "real_type": "pack",
+      "category": "other",
+      "inlets": 2,
+      "outlets": 1
+    },
+    {
+      "id": "obj-6",
+      "type": "newobj",
+      "text": "unpack f s i",
+      "real_type": "unpack",
+      "category": "other",
+      "inlets": 1,
+      "outlets": 2
+    },
+    {
+      "id": "obj-7",
+      "type": "newobj",
+      "text": "t b f b",
+      "real_type": "trigger",
+      "category": "max",
+      "inlets": 2,
+      "outlets": 2
+    },
+    {
+      "id": "obj-8",
+      "type": "newobj",
+      "text": "gate 4",
+      "real_type": "gate",
+      "category": "max",
+      "inlets": 2,
+      "outlets": 1
+    },
+    {
+      "id": "obj-9",
+      "type": "newobj",
+      "text": "cycle~ 440",
+      "real_type": "cycle~",
+      "category": "other",
+      "inlets": 1,
+      "outlets": 1
+    },
+    {
+      "id": "obj-10",
+      "type": "newobj",
+      "text": "sel 10 20 30",
+      "real_type": "select",
+      "category": "other",
+      "inlets": 1,
+      "outlets": 3
+    }
+  ],
+  "connections": [
+    {
+      "source_id": "obj-1",
+      "source_port": 0,
+      "dest_id": "obj-2",
+      "dest_port": 0
+    },
+    {
+      "source_id": "obj-2",
+      "source_port": 0,
+      "dest_id": "obj-3",
+      "dest_port": 0
+    },
+    {
+      "source_id": "obj-3",
+      "source_port": 2,
+      "dest_id": "obj-4",
+      "dest_port": 0
+    },
+    {
+      "source_id": "obj-4",
+      "source_port": 1,
+      "dest_id": "obj-5",
+      "dest_port": 1
+    },
+    {
+      "source_id": "obj-5",
+      "source_port": 0,
+      "dest_id": "obj-6",
+      "dest_port": 0
+    },
+    {
+      "source_id": "obj-6",
+      "source_port": 0,
+      "dest_id": "obj-7",
+      "dest_port": 0
+    },
+    {
+      "source_id": "obj-7",
+      "source_port": 1,
+      "dest_id": "obj-8",
+      "dest_port": 1
+    }
+  ]
+}

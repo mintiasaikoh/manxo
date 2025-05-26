@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-05-21T23:52:49.786328",
+  "files_analyzed": 1,
+  "connection_patterns": {
+    "patterns_file": "/Users/mymac/manxo/test_data/analysis_results/connection_patterns.json",
+    "stats_file": "/Users/mymac/manxo/test_data/analysis_results/pattern_statistics.json",
+    "patterns_count": 7,
+    "top_pattern": "metro:0 -> counter:0"
+  },
+  "chain_patterns": {
+    "total_chains": 0,
+    "report_file": "/Users/mymac/manxo/test_data/analysis_results/chain_patterns.json"
+  },
+  "port_verification": {
+    "verified_percent": 100.0,
+    "report_file": "/Users/mymac/manxo/test_data/analysis_results/port_verification.json"
+  }
+}
