@@ -35,7 +35,7 @@ cd manxo
 pip install -r requirements.txt
 
 # Setup database
-createdb manxo
+createdb max_patch_analysis
 python scripts/setup_database.py
 ```
 
