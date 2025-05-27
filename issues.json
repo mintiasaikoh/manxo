@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Neural Knowledge Base Implementation",
+    "body": "Implement learnable neural indices to replace PostgreSQL queries"
+  },
+  {
+    "title": "GNN Model Training", 
+    "body": "Train Graph Neural Networks on 689k connection dataset"
+  },
+  {
+    "title": "NLP Integration",
+    "body": "Connect natural language input to patch generation"
+  },
+  {
+    "title": "Streaming Knowledge Updates",
+    "body": "Implement continuous learning with EWC"
+  },
+  {
+    "title": "Sparse Attention Optimization",
+    "body": "Optimize memory usage for large patches"
+  }
+]
