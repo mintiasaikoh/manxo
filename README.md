@@ -94,11 +94,11 @@ python scripts/manxo_cli.py "リバーブエフェクト"
 
 ### 優先度の高いタスク
 
-1. **Neural Knowledge Base実装** - PyTorchを使った学習可能インデックス
-2. **GNNモデル実装** - PyTorch Geometricを使ったグラフニューラルネットワーク  
-3. **テストカバレッジ向上** - 現在のカバレッジ: 約5%
+1. **データベース検証とツール作成** ([Issue #16](https://github.com/mintiasaikoh/manxo/issues/16)) - まずデータを理解する
+2. **テンプレートベース生成** ([Issue #17](https://github.com/mintiasaikoh/manxo/issues/17)) - AIなしでの基本実装
+3. **パターンマッチング** ([Issue #18](https://github.com/mintiasaikoh/manxo/issues/18)) - 既存データの活用
 
-詳細は[CONTRIBUTING.md](CONTRIBUTING.md)と[Issues](https://github.com/mintiasaikoh/manxo/issues)を確認してください。
+詳細なロードマップは[ROADMAP.md](ROADMAP.md)を参照してください。
 
 ## 📊 Data Status
 
